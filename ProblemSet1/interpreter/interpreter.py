@@ -1,5 +1,3 @@
-import decimal
-
 userInput = input("Expression: ")
 
 x, y, z = userInput.split(" ")
