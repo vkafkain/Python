@@ -10,7 +10,7 @@ def main():
         if total_prize > 0:
             continue
         else:
-            print(f"Change Owed: {total_prize}")
+            print(f"Change Owed: {abs(total_prize)}")
             break
 
 main()
